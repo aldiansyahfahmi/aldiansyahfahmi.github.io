@@ -4,20 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio | Aldiansyah Fahmi</title>
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-    <!-- Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
   </head>
   <body id="home" style="font-family: 'Nunito', sans-serif">
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm p-3 bg-white">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm p-3">
       <div class="container">
         <a class="navbar-brand" href="#">Aldiansyah Fahmi</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,65 +24,117 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" href="#about">Tentang Saya</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#about">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#projects">PROJECTS</a>
+              <a class="nav-link active" href="#portfolio">Portfolio</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- End NavBar -->
+    <!-- Navbar End -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/aldi.jpg" alt="Aldiansyah Fahmi" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Aldiansyah Fahmi</h1>
-      <p class="lead">Flutter Developer</p>
-    </section>
-    <!-- End Jumbotron -->
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <h2 class="title mb-3">Tentang Saya</h2>
-            <p class="text-muted mb-0">
-              Nama saya Aldiansyah Fahmi, saya seorang Mobile Developer, lulusan salah satu kampus swasta di sulawesi selatan, sejak semester 5 saya sudah aktif mengerjakan project mobile dan bekerja di salah satu software house di Makassar
-              sebagai Mobile Developer.
-            </p>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container text-center">
+        <div class="row align-items-center justify-content-evenly">
+          <div class="col-md-4 mb-5">
+            <p class="fs-5 mb-0" style="color: #14b8a6">Halo Semua 👋, saya</p>
+            <h1 class="text-white fw-bold mb-0">Aldiansyah Fahmi</h1>
+            <h5 class="text-white">Flutter Developer</h5>
           </div>
-
           <div class="col-md-4 mb-3">
-            <h2 class="title mb-3">Pendidikan</h2>
-            <h5 class="mb-3">Universitas Teknologi Akba Makassar (UNITAMA)</h5>
-            <span>2018-2021</span>
-            <p class="text-muted">IPK 3,96</p>
-          </div>
-
-          <div class="col-md-4 mb-3">
-            <h2 class="title mb-3">Pengalaman</h2>
-            <h5 class="mb-3">Smart Inovasi</h5>
-            <span>2020-Sekarang</span>
-            <p class="text-muted">Mobile Developer</p>
+            <img src="img/aldi.jpg" width="300" alt="Aldiansyah Fahmi" class="rounded-circle img-thumbnail" />
           </div>
         </div>
       </div>
     </section>
-    <!-- End About -->
+    <!-- Hero Section End -->
 
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container">
+    <!-- About Me -->
+    <section id="about">
+      <div class="container pb-5">
+        <div class="row justify-content-evenly">
+          <div class="col-md-4 mb-3">
+            <h4 class="fw-bold mb-3" style="color: #14b8a6">TENTANG SAYA</h4>
+            <p class="text-white">
+              Nama saya Aldiansyah Fahmi, saya seorang Mobile Developer, lulusan salah satu kampus swasta di sulawesi selatan, sejak semester 5 saya sudah aktif mengerjakan project mobile dan bekerja di salah satu software house di Makassar
+              sebagai Mobile Developer.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h4 class="fw-bold mb-3" style="color: #14b8a6">Mari Berteman</h4>
+            <p class="text-white">Beberapa sosial media yang saya gunakan</p>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/aldiansyahfahmi10/" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM16 8C20.4 8 24 11.6 24 16C24 20 21.1 23.4 17.1 24V18.3H19L19.4 16H17.2V14.5C17.2 13.9 17.5 13.3 18.5 13.3H19.5V11.3C19.5 11.3 18.6 11.1 17.7 11.1C15.9 11.1 14.7 12.2 14.7 14.2V16H12.7V18.3H14.7V23.9C10.9 23.3 8 20 8 16C8 11.6 11.6 8 16 8Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/aldiansyah99/" target="_blank" class="ms-2">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM8.2 13.3V24H11.6V13.3H8.2ZM8 9.9C8 11 8.8 11.8 9.9 11.8C11 11.8 11.8 11 11.8 9.9C11.8 8.8 11 8 9.9 8C8.9 8 8 8.8 8 9.9ZM20.6 24H23.8V17.4C23.8 14.1 21.8 13 19.9 13C18.2 13 17 14.1 16.7 14.8V13.3H13.5V24H16.9V18.3C16.9 16.8 17.9 16 18.9 16C19.9 16 20.6 16.5 20.6 18.2V24Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/aldiansyahf99/" target="_blank" class="ms-2">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 18.8C14.5 18.8 13.2 17.6 13.2 16C13.2 14.5 14.4 13.2 16 13.2C17.5 13.2 18.8 14.4 18.8 16C18.8 17.5 17.5 18.8 16 18.8Z" fill="white" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.4 9.2H12.6C11.8 9.3 11.4 9.4 11.1 9.5C10.7 9.6 10.4 9.8 10.1 10.1C9.86261 10.3374 9.75045 10.5748 9.61489 10.8617C9.57916 10.9373 9.5417 11.0166 9.5 11.1C9.48453 11.1464 9.46667 11.1952 9.44752 11.2475C9.34291 11.5333 9.2 11.9238 9.2 12.6V19.4C9.3 20.2 9.4 20.6 9.5 20.9C9.6 21.3 9.8 21.6 10.1 21.9C10.3374 22.1374 10.5748 22.2495 10.8617 22.3851C10.9374 22.4209 11.0165 22.4583 11.1 22.5C11.1464 22.5155 11.1952 22.5333 11.2475 22.5525C11.5333 22.6571 11.9238 22.8 12.6 22.8H19.4C20.2 22.7 20.6 22.6 20.9 22.5C21.3 22.4 21.6 22.2 21.9 21.9C22.1374 21.6626 22.2495 21.4252 22.3851 21.1383C22.4209 21.0626 22.4583 20.9835 22.5 20.9C22.5155 20.8536 22.5333 20.8048 22.5525 20.7525C22.6571 20.4667 22.8 20.0762 22.8 19.4V12.6C22.7 11.8 22.6 11.4 22.5 11.1C22.4 10.7 22.2 10.4 21.9 10.1C21.6626 9.86261 21.4252 9.75045 21.1383 9.61488C21.0627 9.57918 20.9833 9.54167 20.9 9.5C20.8536 9.48453 20.8048 9.46666 20.7525 9.44752C20.4667 9.3429 20.0762 9.2 19.4 9.2ZM16 11.7C13.6 11.7 11.7 13.6 11.7 16C11.7 18.4 13.6 20.3 16 20.3C18.4 20.3 20.3 18.4 20.3 16C20.3 13.6 18.4 11.7 16 11.7ZM21.4 11.6C21.4 12.1523 20.9523 12.6 20.4 12.6C19.8477 12.6 19.4 12.1523 19.4 11.6C19.4 11.0477 19.8477 10.6 20.4 10.6C20.9523 10.6 21.4 11.0477 21.4 11.6Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM12.6 7.7H19.4C20.3 7.8 20.9 7.9 21.4 8.1C22 8.4 22.4 8.6 22.9 9.1C23.4 9.6 23.7 10.1 23.9 10.6C24.1 11.1 24.3 11.7 24.3 12.6V19.4C24.2 20.3 24.1 20.9 23.9 21.4C23.6 22 23.4 22.4 22.9 22.9C22.4 23.4 21.9 23.7 21.4 23.9C20.9 24.1 20.3 24.3 19.4 24.3H12.6C11.7 24.2 11.1 24.1 10.6 23.9C10 23.6 9.6 23.4 9.1 22.9C8.6 22.4 8.3 21.9 8.1 21.4C7.9 20.9 7.7 20.3 7.7 19.4V12.6C7.8 11.7 7.9 11.1 8.1 10.6C8.4 10 8.6 9.6 9.1 9.1C9.6 8.6 10.1 8.3 10.6 8.1C11.1 7.9 11.7 7.7 12.6 7.7Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <!-- Github -->
+            <a href="https://github.com/aldiansyahfahmi" target="_blank" class="ms-2">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM8 16.1675C8 11.7639 11.5718 8.192 15.9755 8.192C20.3792 8.192 23.951 11.7639 24 16.1675C24 19.6905 21.7492 22.6752 18.5688 23.7516C18.1774 23.8006 18.0306 23.5559 18.0306 23.3602V21.1584C18.0306 20.4244 17.7859 19.9351 17.4924 19.6905C19.2538 19.4948 21.1132 18.8587 21.1132 15.7761C21.1132 14.8954 20.7706 14.1614 20.2814 13.6232C20.2852 13.6078 20.2906 13.5885 20.297 13.5655C20.3719 13.2953 20.5892 12.5111 20.1835 11.5192C20.1835 11.5192 19.4985 11.3235 17.9816 12.351C17.3456 12.2042 16.6605 12.1064 15.9755 12.1064C15.2905 12.1064 14.6055 12.1553 13.9694 12.351C12.4526 11.3235 11.7676 11.5192 11.7676 11.5192C11.3351 12.5763 11.6105 13.3975 11.6669 13.5657L11.6697 13.5743C11.1315 14.1614 10.8379 14.8464 10.8379 15.7272C10.8379 18.8097 12.6973 19.4948 14.4587 19.6905C14.263 19.8862 14.0184 20.2287 13.9694 20.7669C13.5291 20.9626 12.4037 21.3052 11.6697 20.0819C11.6697 20.0819 11.2294 19.299 10.4465 19.2501C10.4465 19.2501 9.66364 19.2501 10.3976 19.7394C10.3976 19.7394 10.9358 19.9841 11.2783 20.9137C11.2783 20.9137 11.7676 22.4795 13.9694 21.9902V23.3602C13.9694 23.5559 13.8226 23.8006 13.4312 23.7516C10.2997 22.6752 8 19.6905 8 16.1675Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Me End -->
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="container pb-5">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Projects</h2>
+            <h4 class="fw-bold mb-0" style="color: #14b8a6">Portfolio</h4>
+            <h1 class="fw-bold mb-3 text-white">Project Saya</h1>
+            <h6 class="text-white mb-4">Beberapa aplikasi yang sudah saya kerjakan</h6>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -91,12 +142,12 @@
             <div class="card">
               <img src="img/med_anatomy.png" class="card-img-top" alt="Project1" />
               <div class="card-body">
+                <h5 class="fw-bold">Med Anatomy Learning FKUH</h5>
                 <p class="card-text">
                   Aplikasi ini dibuat untuk memudahkan dalam proses belajar mengajar, dalam aplikasi ini terdapat beberapa pembelajaran yang dapat dilakukan mahasiswa, seperti lembar kerja, kuis, video pembelajaran dan materi dalam bentuk
                   pdf yang dapat dibaca mahasiswa. Latihan-latihan yang dilakukan oleh mahasiswa juga dapat dimonitoring oleh dosen pembimbing serta memberikan umpan balik terhadap hasil kerja mahasiswa, sehingga mahasiswa bisa mendapatkan
                   masukan dari hasil kerja mereka.
                 </p>
-                <a class="btn btn-success" href="https://play.google.com/store/apps/details?id=androidmakassar.medanatomylearning&hl=id" role="button">Lihat</a>
               </div>
             </div>
           </div>
@@ -105,12 +156,12 @@
             <div class="card">
               <img src="img/telerehab.png" class="card-img-top" alt="Project3" />
               <div class="card-body">
+                <h5 class="fw-bold">Telerehabilitasi Hasanuddin</h5>
                 <p class="card-text">
                   Telerehabilitasi Hasanuddin adalah aplikasi berbasis mobile yang dibuat untuk memenuhi kebutuhan kesehatan masyarakat dalam bentuk video edukasi mengenai terapi latihan. Telerehabilitasi Hasanuddin telah dikembangkan oleh
                   tim kesehatan profesional termasuk Dokter Spesialis Kedokteran Fisik dan Rehabilitasi, dokter umum, fisioterapis, dan terapis okupasi. Program latihan ini dirancang berdasarkan evidence-based. Fitur utama kami meliputi
                   rehabilitasi atroke, latihan pernapasan, dan latihan interval aerobik. Latihan terapeutik dibentuk untuk memastikan bahwa orang berolahraga dengan cara yang baik dan berbasis ilmiah.
                 </p>
-                <a class="btn btn-success" href="https://play.google.com/store/apps/details?id=androidmakassar.telerehabilitasi_hasanuddin&hl=id" role="button">Lihat</a>
               </div>
             </div>
           </div>
@@ -118,12 +169,12 @@
             <div class="card">
               <img src="img/elogbook_profesi.png" class="card-img-top" alt="Project3" />
               <div class="card-body">
+                <h5 class="fw-bold">E-Logbook Profesi FKUH</h5>
                 <p class="card-text">
                   Aplikasi e-logbook profesi dokter adalah aplikasi khusus yang dirancang untuk membantu dokter KOAS dalam mencatat, menyimpan, dan mengakses catatan harian atau log dari berbagai aktivitas yang dilakukan selama bekerja.
                   Aplikasi ini sangat berguna bagi para dokter yang ingin mencatat aktivitas harian mereka secara teratur dan terorganisir, sehingga mereka dapat mengetahui progress dan kemajuan yang telah dicapai dan juga mengetahui apa
                   yang harus diperbaiki dalam pengobatan pasien.
                 </p>
-                <a class="btn btn-success" href="https://play.google.com/store/apps/details?id=com.smartinovasi.e_logbook_profesi&hl=id" role="button">Lihat</a>
               </div>
             </div>
           </div>
@@ -132,10 +183,10 @@
             <div class="card">
               <img src="img/elogbook_prodi_s1.png" class="card-img-top" alt="Project3" />
               <div class="card-body">
+                <h5 class="fw-bold">E-Logbook Prodi FKUH</h5>
                 <p class="card-text">
                   Aplikasi ini digunakan untuk mencatat aktifitas akademik dan penelitian serta dapat memonitoring sejauh mana tingkat pencapaian akademik mahasiswa. Aplikasi ini juga dapat melihat progres penelitian mahasiswa.
                 </p>
-                <a class="btn btn-success" href="https://play.google.com/store/apps/details?id=smartinovasi.e_logbook&hl=id" role="button">Lihat</a>
               </div>
             </div>
           </div>
@@ -143,8 +194,8 @@
             <div class="card">
               <img src="img/ebook.png" class="card-img-top" alt="Project3" />
               <div class="card-body">
+                <h5 class="fw-bold">E-Book Nursing</h5>
                 <p class="card-text">Aplikasi E-Book adalah aplikasi khusus yang dirancang untuk membaca buku secara online.</p>
-                <a class="btn btn-success" href="https://play.google.com/store/apps/details?id=smartinovasi.nursingdigitallearning&hl=id" role="button">Lihat</a>
               </div>
             </div>
           </div>
@@ -153,6 +204,7 @@
             <div class="card">
               <img src="img/hello_beras.jpeg" class="card-img-top" alt="Project3" />
               <div class="card-body">
+                <h5 class="fw-bold">Hello Beras</h5>
                 <p class="card-text">Aplikasi ini dirancang untuk melakukan pembelian beras secara online</p>
               </div>
             </div>
@@ -160,13 +212,13 @@
         </div>
       </div>
     </section>
-    <!-- End Projects -->
+    <!-- Portfolio End -->
 
     <!-- Footer -->
-    <footer class="text-center p-2">
+    <footer class="text-center p-2 pt-4 text-white" style="background-color: #10172a">
       <p>© 2023 Created with <i class="bi bi-heart-fill text-danger"></i> by Aldi</p>
     </footer>
-    <!-- End Footer -->
+    <!-- Footer End -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>

@@ -1,9 +1,24 @@
-.jumbotron {
-  padding-top: 6rem;
+.navbar {
+  background-color: #10172a;
 }
 
-#projects {
-  margin-bottom: 6rem;
+.navbar-brand {
+  color: #14b8a6;
+  font-weight: 600;
+}
+
+.hero {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  background-color: #10172a;
+}
+
+#about {
+  background-color: #10172a;
+}
+
+#portfolio {
+  background-color: #1e293b;
 }
 
 section {
