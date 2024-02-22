@@ -24,3 +24,21 @@
 section {
   padding-top: 5rem;
 }
+
+.card {
+  display: flex;
+  flex-direction: column; /* Mengatur tata letak isi card secara vertikal */
+  height: 100%; /* Memastikan card mengambil seluruh tinggi yang tersedia */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* Tata letak isi body secara vertikal */
+  flex: 1; /* Mengambil ruang yang tersedia */
+  justify-content: space-between; /* Menyebar isi dari atas ke bawah */
+}
+
+.card-text {
+  flex-grow: 1; /* Memungkinkan teks mengambil ruang maksimal */
+  padding-bottom: 20px; /* Jarak antara teks dan elemen di bawahnya */
+}
